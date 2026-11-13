@@ -1,0 +1,4 @@
+strategy,n_days,mean_cnt,sd_cnt,pearson_r_cnt_hum,pearson_p_cnt_hum,pearson_r_cnt_windspeed,pearson_p_cnt_windspeed
+Untouched Full Dataset,731,4504.35,1937.21,-0.1007,0.006454143325437132,-0.2345,1.3599586778865568e-10
+Drop Sensor Anomaly (hum > 0),730,4509.67,1933.19,-0.1146,0.0019227517279824728,-0.2328,1.9334898702295935e-10
+Winsorized Weather (1.5*IQR),731,4504.35,1937.21,-0.1057,0.004236781987434946,-0.2337,1.602170636969309e-10

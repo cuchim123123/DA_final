@@ -1,0 +1,10 @@
+variable,distribution_family,parameters,log_likelihood,aic,ks_statistic,shapiro_w,shapiro_p
+temp,Normal,"mu = 0.4954, sigma = 0.1831",204.49,-404.97,0.0727,0.9659,5.145874207594538e-12
+temp,"Beta on (0, 1)","alpha_mle = 3.3881, beta_mle = 3.4640 (MoM: 3.2004, 3.2600)",234.35,-464.7,0.0614,,
+temp,Gamma,"shape alpha = 6.2673, scale theta = 0.0790",187.5,-371.0,0.0885,,
+hum,Normal,"mu = 0.6279, sigma = 0.1424",387.91,-771.82,0.0339,0.9933,0.0024808493452466453
+hum,"Beta on (0, 1)","alpha_mle = 5.6438, beta_mle = 3.3681 (MoM: 6.6039, 3.9136)",350.99,-697.98,0.0445,,
+hum,Gamma,"shape alpha = 13.5703, scale theta = 0.0463",274.42,-544.84,0.0525,,
+windspeed,Normal,"mu = 0.1905, sigma = 0.0775",832.79,-1661.58,0.0627,0.9712,8.426138707692799e-11
+windspeed,"Beta on (0, 1)","alpha_mle = 4.7763, beta_mle = 20.2884 (MoM: 4.7002, 19.9746)",864.8,-1725.6,0.0272,,
+windspeed,Gamma,"shape alpha = 5.8533, scale theta = 0.0325",864.16,-1724.33,0.0197,,

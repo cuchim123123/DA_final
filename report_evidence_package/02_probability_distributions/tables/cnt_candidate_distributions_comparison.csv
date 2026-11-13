@@ -1,0 +1,6 @@
+variable,distribution_family,domain_type,fitted_parameters,log_likelihood,aic,ks_statistic,goodness_of_fit_notes
+cnt,Normal (Gaussian),"Continuous (-inf, +inf)","mu = 4504.3488, sigma = 1937.2115",-6569.69,13143.37,0.0471,"Lowest AIC (13,143.37) and smallest KS (0.0471), but Shapiro-Wilk rejects exact normality (W = 0.9801, p = 2.081e-08) due to platykurtic flatness (excess kurtosis = -0.8119)."
+cnt,Gamma,"Continuous (0, +inf)","shape alpha = 4.0216, scale theta = 1120.0378",-6613.89,13231.77,0.0964,"Second-lowest AIC (13,231.77), imposes positive right-skewness that mismatches near-symmetric cnt (skewness = -0.0474)."
+cnt,Negative Binomial,"Discrete Count {0, 1, 2, ...}","r = 5.4129, p = 0.001200",-6632.31,13268.61,0.0734,"Best discrete count distribution (AIC = 13,268.61 vs Poisson 676,201.44); captures quadratic overdispersion."
+cnt,Exponential,"Continuous [0, +inf)",scale = 4504.3488,-6880.76,13763.51,0.2559,"Poor fit (AIC = 13,763.51, KS = 0.2559); assumes monotone decaying density from 0."
+cnt,Poisson,"Discrete Count {0, 1, 2, ...}",lambda = 4504.3488,-338099.72,676201.44,0.4576,"Completely rejected due to extreme overdispersion: Var/Mean = 833.15 (chi2 = 608197.88, p = 0.0; Cameron-Trivedi t = 24.7853, p = 3.541e-99)."

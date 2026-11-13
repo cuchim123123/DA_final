@@ -1,0 +1,2 @@
+hypothesis_id,threshold_median_cnt,n_total,pearson_chi2,df,p_value_chi2,p_value_holm_family,likelihood_ratio_g2,p_value_g2,cramers_v,cohens_w,min_expected_cell_count,cells_with_expected_lt_5,cochran_criterion_satisfied,collapsed_2x2_fisher_odds_ratio,collapsed_2x2_fisher_pvalue,decision_at_alpha_0_05
+H3,4548.0,731,44.0879,2,2.6694944140816625e-10,5.338988828163325e-10,48.1658,3.474862965593339e-11,0.2456,0.2456,10.4856,0,True,2.5476,2.8782102296193825e-09,Reject H0

@@ -1,0 +1,4 @@
+weathersit,weathersit_label,observed_low_demand,observed_high_demand,row_total,expected_low_demand,expected_high_demand,pct_low_demand,pct_high_demand,pearson_residual_high_demand,std_adjusted_residual_high_demand
+1,1: Clear / Partly Cloudy,193,270,463,231.8167,231.1833,41.68,58.32,2.5529,5.9587
+2,2: Mist / Cloudy,153,94,247,123.6689,123.3311,61.94,38.06,-2.6411,-4.5872
+3,3: Light Snow / Light Rain,20,1,21,10.5144,10.4856,95.24,4.76,-2.9293,-4.2007

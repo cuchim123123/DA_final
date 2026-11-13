@@ -1,0 +1,13 @@
+feature,readable_name,vif,tolerance_1_over_vif,vif_when_atemp_included
+num__temp,Normalized Temperature (temp),3.6091,0.2771,184.8565
+num__hum,Normalized Humidity (hum),1.9176,0.5215,1.9374
+num__windspeed,Normalized Wind Speed (windspeed),1.1846,0.8442,1.2463
+bin__yr,Year Indicator (yr: 1 = 2012),1.2098,0.8266,1.2108
+bin__holiday,Public Holiday Indicator (holiday: 1 = Yes),1.0702,0.9344,1.0786
+bin__workingday,Working Day Indicator (workingday: 1 = Workday),1.0758,0.9295,1.0765
+cat__season_2,Season 2: Summer (vs Season 1),2.6676,0.3749,2.6681
+cat__season_3,Season 3: Fall (vs Season 1),4.6288,0.216,4.706
+cat__season_4,Season 4: Winter (vs Season 1),1.7834,0.5607,1.7902
+cat__weathersit_2,Weather 2: Mist/Cloudy (vs Clear 1),1.5861,0.6305,1.5937
+cat__weathersit_3,Weather 3: Light Snow/Rain (vs Clear 1),1.3083,0.7644,1.3206
+num__atemp,"Normalized Feeling Temp (atemp, dropped)",,,179.2965
