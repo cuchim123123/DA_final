@@ -1,0 +1,9 @@
+segment_name,analytical_role,n_customers,pct_of_population,n_churned,n_retained,churn_rate_pct,ci95_low_pct,ci95_high_pct,share_of_all_churn_pct,mean_monthly_charges_usd,monthly_revenue_at_risk_usd
+Contract = Month-to-month (All),Broad Contract Cohort,3875,55.02,1655,2220,42.71,41.16,44.27,88.55,66.4,120847.1
+Month-to-month AND tenure 1-12 mo,REC-1 Target Cohort,1994,28.31,1024,970,51.35,49.16,53.54,54.79,58.22,68301.45
+InternetService = Fiber optic (All),Broad Fiber Cohort,3096,43.96,1297,1799,41.89,40.17,43.64,69.4,91.5,114300.05
+Fiber optic AND (No OnlineSecurity OR No TechSupport),REC-2 Target Cohort,2722,38.65,1244,1478,45.7,43.84,47.58,66.56,89.54,108733.6
+Fiber optic AND (No OnlineSecurity AND No TechSupport),REC-2 Highest-Risk Core,1765,25.06,971,794,55.01,52.68,57.32,51.95,86.1,82817.75
+Fiber optic AND (Lacks exactly one of Security/TechSupport),Fiber Partition Sub-Cohort,957,13.59,273,684,28.53,25.76,31.47,14.61,95.9,25915.85
+Fiber optic AND (Both OnlineSecurity & TechSupport = Yes),Fiber Protected Comparison,374,5.31,53,321,14.17,11.0,18.07,2.84,105.73,5566.45
+PaymentMethod = Electronic check (All),REC-3 Target Cohort,2365,33.58,1071,1294,45.29,43.29,47.3,57.3,76.26,84288.75

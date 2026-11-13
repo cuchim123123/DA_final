@@ -1,0 +1,46 @@
+encoded_feature,scale_note,log_odds_coef,odds_multiplier_exp_beta,direction
+MonthlyCharges,1 SD standardized change,-1.6791,0.1865,Decreases Churn Odds
+tenure,1 SD standardized change,-1.2677,0.2815,Decreases Churn Odds
+InternetService_Fiber optic,Active indicator (1 vs 0),1.1535,3.1694,Increases Churn Odds
+InternetService_DSL,Active indicator (1 vs 0),-1.0366,0.3546,Decreases Churn Odds
+Contract_Two year,Active indicator (1 vs 0),-0.8248,0.4383,Decreases Churn Odds
+Contract_Month-to-month,Active indicator (1 vs 0),0.5525,1.7375,Increases Churn Odds
+TotalCharges,1 SD standardized change,0.5435,1.7221,Increases Churn Odds
+TechSupport_No internet service,Active indicator (1 vs 0),-0.5308,0.5881,Decreases Churn Odds
+DeviceProtection_No internet service,Active indicator (1 vs 0),-0.5308,0.5881,Decreases Churn Odds
+InternetService_No,Active indicator (1 vs 0),-0.5308,0.5881,Decreases Churn Odds
+OnlineSecurity_No internet service,Active indicator (1 vs 0),-0.5308,0.5881,Decreases Churn Odds
+StreamingMovies_No internet service,Active indicator (1 vs 0),-0.5308,0.5881,Decreases Churn Odds
+StreamingTV_No internet service,Active indicator (1 vs 0),-0.5308,0.5881,Decreases Churn Odds
+OnlineBackup_No internet service,Active indicator (1 vs 0),-0.5308,0.5881,Decreases Churn Odds
+StreamingMovies_Yes,Active indicator (1 vs 0),0.4474,1.5642,Increases Churn Odds
+StreamingTV_Yes,Active indicator (1 vs 0),0.4464,1.5626,Increases Churn Odds
+PhoneService_No,Active indicator (1 vs 0),-0.4127,0.6618,Decreases Churn Odds
+MultipleLines_No phone service,Active indicator (1 vs 0),-0.4127,0.6618,Decreases Churn Odds
+PaperlessBilling_No,Active indicator (1 vs 0),-0.3922,0.6755,Decreases Churn Odds
+StreamingMovies_No,Active indicator (1 vs 0),-0.3305,0.7186,Decreases Churn Odds
+StreamingTV_No,Active indicator (1 vs 0),-0.3295,0.7193,Decreases Churn Odds
+Dependents_Yes,Active indicator (1 vs 0),-0.3213,0.7252,Decreases Churn Odds
+MultipleLines_No,Active indicator (1 vs 0),-0.2824,0.7539,Decreases Churn Odds
+MultipleLines_Yes,Active indicator (1 vs 0),0.2813,1.3248,Increases Churn Odds
+PaymentMethod_Credit card (automatic),Active indicator (1 vs 0),-0.2409,0.7859,Decreases Churn Odds
+gender_Female,Active indicator (1 vs 0),-0.2186,0.8036,Decreases Churn Odds
+Partner_No,Active indicator (1 vs 0),-0.2186,0.8036,Decreases Churn Odds
+PaymentMethod_Bank transfer (automatic),Active indicator (1 vs 0),-0.2119,0.809,Decreases Churn Odds
+gender_Male,Active indicator (1 vs 0),-0.1953,0.8226,Decreases Churn Odds
+Partner_Yes,Active indicator (1 vs 0),-0.1953,0.8226,Decreases Churn Odds
+DeviceProtection_Yes,Active indicator (1 vs 0),0.1759,1.1924,Increases Churn Odds
+PaymentMethod_Electronic check,Active indicator (1 vs 0),0.1727,1.1885,Increases Churn Odds
+SeniorCitizen,Active indicator (1 vs 0),0.1454,1.1565,Increases Churn Odds
+Contract_One year,Active indicator (1 vs 0),-0.1416,0.868,Decreases Churn Odds
+PaymentMethod_Mailed check,Active indicator (1 vs 0),-0.1338,0.8747,Decreases Churn Odds
+OnlineSecurity_No,Active indicator (1 vs 0),0.1322,1.1414,Increases Churn Odds
+OnlineBackup_Yes,Active indicator (1 vs 0),0.1076,1.1137,Increases Churn Odds
+TechSupport_No,Active indicator (1 vs 0),0.1065,1.1123,Increases Churn Odds
+Dependents_No,Active indicator (1 vs 0),-0.0927,0.9115,Decreases Churn Odds
+DeviceProtection_No,Active indicator (1 vs 0),-0.059,0.9427,Decreases Churn Odds
+PaperlessBilling_Yes,Active indicator (1 vs 0),-0.0217,0.9786,Decreases Churn Odds
+OnlineSecurity_Yes,Active indicator (1 vs 0),-0.0153,0.9848,Decreases Churn Odds
+TechSupport_Yes,Active indicator (1 vs 0),0.0104,1.0105,Increases Churn Odds
+OnlineBackup_No,Active indicator (1 vs 0),0.0092,1.0093,Increases Churn Odds
+PhoneService_Yes,Active indicator (1 vs 0),-0.0012,0.9988,Decreases Churn Odds

@@ -1,0 +1,4 @@
+partition,n_rows,pct_of_total,churn_yes_count,churn_no_count,churn_rate_pct,random_state,split_strategy
+Full Dataset,7043,100.0,1869,5174,26.537,42,Stratified Random (Cross-Sectional Snapshot)
+Train (5-Fold CV Dev),5634,79.99,1495,4139,26.5353,42,Stratified Random (Cross-Sectional Snapshot)
+Hold-Out Test (Sealed),1409,20.01,374,1035,26.5436,42,Stratified Random (Cross-Sectional Snapshot)

@@ -1,0 +1,8 @@
+model_name,role,threshold_setting,threshold_value,n_test,accuracy,precision,recall,specificity,f1_score,roc_auc,pr_auc,brier_score,calibration_ece,log_loss,tn,fp,fn,tp
+Dummy Floor (Most Frequent),Reference No-Skill Floor,Default (0.50),0.5,1409,0.7346,0.0,0.0,1.0,0.0,0.5,0.2654,0.2654,0.2654,3.6671,1035,0,374,0
+Logistic Regression,Simple Linear Baseline Model,Default (0.50),0.5,1409,0.8055,0.6572,0.5588,0.8947,0.604,0.8412,0.6286,0.1385,0.0248,0.4213,926,109,165,209
+Logistic Regression,Simple Linear Baseline Model,Model CV F1-Opt (0.325),0.325,1409,0.7587,0.5335,0.7246,0.771,0.6145,0.8412,0.6286,0.1385,0.0248,0.4213,798,237,103,271
+Random Forest,Advanced Tree Ensemble (Bagging),Default (0.50),0.5,1409,0.802,0.6727,0.4947,0.913,0.5701,0.844,0.6513,0.1361,0.0173,0.4176,945,90,189,185
+Random Forest,Advanced Tree Ensemble (Bagging),Model CV F1-Opt (0.330),0.33,1409,0.7764,0.5591,0.746,0.7874,0.6392,0.844,0.6513,0.1361,0.0173,0.4176,815,220,95,279
+HistGradientBoosting,Advanced Tree Ensemble (Boosting),Default (0.50),0.5,1409,0.7977,0.6498,0.516,0.8995,0.5753,0.8461,0.661,0.1354,0.021,0.4157,931,104,181,193
+HistGradientBoosting,Advanced Tree Ensemble (Boosting),Model CV F1-Opt (0.340),0.34,1409,0.7771,0.5622,0.7246,0.7961,0.6332,0.8461,0.661,0.1354,0.021,0.4157,824,211,103,271

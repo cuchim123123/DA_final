@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache & test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Notebooks & OS artifacts
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.pptx

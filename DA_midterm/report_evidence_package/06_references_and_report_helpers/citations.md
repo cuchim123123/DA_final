@@ -1,0 +1,8 @@
+# Verified Sources and Academic References
+
+1. **IBM Telco Customer Churn Sample Dataset:** IBM Developer / Cloud Pak for Data Sample Repository. CSV URL: <https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv>; Repository: <https://github.com/IBM/telco-customer-churn-on-icp4d>. *(Note: IBM explicitly describes this dataset as sample data for a fictional telecommunications company.)*
+2. **Pedregosa, F., et al. (2011).** Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research*, 12, 2825–2830. (Used for Stratified Splitting, Pipelines, LogisticRegression, RandomForestClassifier, HistGradientBoostingClassifier, Permutation Importance, Calibration, and Metrics.)
+3. **Virtanen, P., et al. (2020).** SciPy 1.0: Fundamental algorithms for scientific computing in Python. *Nature Methods*, 17(3), 261–272. (Used for Pearson Chi-square, Welch's t-test, and Mann-Whitney U tests.)
+4. **Wilson, E. B. (1927).** Probable inference, the law of succession, and statistical inference. *Journal of the American Statistical Association*, 22(158), 209–212. (Used for 95% binomial proportion confidence intervals.)
+5. **Breiman, L. (2001).** Random Forests. *Machine Learning*, 45(1), 5–32; and Permutation Feature Importance methodology.
+6. **Optional Reference Inspiration (UX Context Only — No Code or Results Copied):** Public repository <https://github.com/UtkarshRai-ds/telco-churn-prediction> (consulted at a high level for general dashboard UX framing only; all implementation, preprocessing, models, charts, and numerical findings in this project are 100% original).

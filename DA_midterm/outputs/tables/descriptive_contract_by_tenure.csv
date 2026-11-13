@@ -1,0 +1,16 @@
+Contract,tenure_tier,n_customers,n_churned,churn_rate_pct,ci95_low_pct,ci95_high_pct
+Month-to-month,0 mo (New),0,0,,,
+Month-to-month,1-12 mo,1994,1024,51.35,49.16,53.54
+Month-to-month,13-24 mo,737,278,37.72,34.29,41.27
+Month-to-month,25-48 mo,802,264,32.92,29.75,36.24
+Month-to-month,49-72 mo,342,89,26.02,21.66,30.92
+One year,0 mo (New),1,0,0.0,0.0,79.35
+One year,1-12 mo,123,13,10.57,6.28,17.25
+One year,13-24 mo,197,16,8.12,5.06,12.78
+One year,25-48 mo,518,55,10.62,8.25,13.57
+One year,49-72 mo,634,82,12.93,10.54,15.77
+Two year,0 mo (New),10,0,0.0,0.0,27.75
+Two year,1-12 mo,58,0,0.0,0.0,6.21
+Two year,13-24 mo,90,0,0.0,0.0,4.09
+Two year,25-48 mo,274,6,2.19,1.01,4.69
+Two year,49-72 mo,1263,42,3.33,2.47,4.46

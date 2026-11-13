@@ -1,0 +1,22 @@
+column_index,column_name,raw_csv_dtype,audited_dtype,statistical_scale,modeling_role,missing_count,missing_pct,unique_count,domain_or_range,description
+1,customerID,string,str,Identifier,id,0,0.0,7043,"7,043 unique ID strings",Unique fictional subscriber ID; excluded from modeling.
+2,gender,string,str,Nominal binary,predictor,0,0.0,2,"Female, Male",Subscriber gender label.
+3,SeniorCitizen,int64,int64,Binary indicator,predictor,0,0.0,2,"0, 1",Whether subscriber is a senior citizen (1) or not (0).
+4,Partner,string,str,Nominal binary,predictor,0,0.0,2,"No, Yes",Whether subscriber has a partner.
+5,Dependents,string,str,Nominal binary,predictor,0,0.0,2,"No, Yes",Whether subscriber has dependents.
+6,tenure,int64,int64,Discrete duration (months),predictor,0,0.0,73,"[0.00, 72.00]",Number of months subscriber has stayed with the company (0 to 72).
+7,PhoneService,string,str,Nominal binary,predictor,0,0.0,2,"No, Yes",Whether subscriber has telephone service.
+8,MultipleLines,string,str,Nominal categorical,predictor,0,0.0,3,"No, Yes, No phone service",Multiple telephone lines status.
+9,InternetService,string,str,Nominal categorical,predictor,0,0.0,3,"DSL, Fiber optic, No",Customer internet service provider type.
+10,OnlineSecurity,string,str,Nominal categorical,predictor,0,0.0,3,"No, Yes, No internet service",Online security add-on.
+11,OnlineBackup,string,str,Nominal categorical,predictor,0,0.0,3,"No, Yes, No internet service",Online backup add-on.
+12,DeviceProtection,string,str,Nominal categorical,predictor,0,0.0,3,"No, Yes, No internet service",Device protection add-on.
+13,TechSupport,string,str,Nominal categorical,predictor,0,0.0,3,"No, Yes, No internet service",Technical support add-on.
+14,StreamingTV,string,str,Nominal categorical,predictor,0,0.0,3,"No, Yes, No internet service",Streaming TV add-on.
+15,StreamingMovies,string,str,Nominal categorical,predictor,0,0.0,3,"No, Yes, No internet service",Streaming movies add-on.
+16,Contract,string,str,Ordinal categorical,predictor,0,0.0,3,"Month-to-month, One year, Two year",Subscriber contract term.
+17,PaperlessBilling,string,str,Nominal binary,predictor,0,0.0,2,"No, Yes",Whether subscriber uses paperless billing.
+18,PaymentMethod,string,str,Nominal categorical,predictor,0,0.0,4,"Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic)",Subscriber payment method.
+19,MonthlyCharges,float64,float64,Continuous ratio (USD/month),predictor,0,0.0,1585,"[18.25, 118.75]",Monthly bill amount charged to subscriber.
+20,TotalCharges,string->float64,float64,Continuous ratio (USD cumulative),predictor,11,0.1562,6530,"[18.80, 8684.80]",Cumulative charges; stored as string in raw CSV due to 11 whitespace entries at tenure=0.
+21,Churn,string,str,Binary target,target,0,0.0,2,"No, Yes","Whether customer churned within the last month (Yes = 1, No = 0)."

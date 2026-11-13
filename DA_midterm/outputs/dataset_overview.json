@@ -1,0 +1,42 @@
+{
+  "provenance": {
+    "dataset_name": "IBM Sample Telco Customer Churn Dataset",
+    "filename": "Telco-Customer-Churn.csv",
+    "relative_path": "data/raw/Telco-Customer-Churn.csv",
+    "source_url": "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv",
+    "source_repository": "https://github.com/IBM/telco-customer-churn-on-icp4d",
+    "retrieved_utc": "2026-11-10T11:37:58.867625+00:00",
+    "last_verified_utc": "2026-11-10T12:32:56.765613+00:00",
+    "file_size_bytes": 970457,
+    "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+    "checksum_verified": true,
+    "caveat": "IBM identifies this CSV as sample data for a fictional telecommunications company (cross-sectional snapshot of 7,043 subscribers). Associations and model scores do not establish causality or verified live commercial revenue impacts."
+  },
+  "caveat": "IBM identifies this CSV as sample data for a fictional telecommunications company (cross-sectional snapshot of 7,043 subscribers). Associations and model scores do not establish causality or verified live commercial revenue impacts.",
+  "dimensions": {
+    "n_rows": 7043,
+    "n_cols": 21,
+    "n_raw_predictors": 19,
+    "n_numeric_predictors": 3,
+    "n_binary_int_predictors": 1,
+    "n_categorical_predictors": 15
+  },
+  "target_distribution": {
+    "churn_no_count": 5174,
+    "churn_yes_count": 1869,
+    "churn_rate_pct": 26.537
+  },
+  "data_quality": {
+    "exact_duplicate_rows": 0,
+    "non_id_identical_profile_rows": 22,
+    "blank_total_charges_count": 11,
+    "blank_total_charges_pct": 0.1562,
+    "all_blank_total_charges_are_tenure_zero": true,
+    "blank_total_charges_churn_no_count": 11,
+    "total_missing_cells_after_parsing": 11,
+    "service_consistency": {
+      "phone_service_mismatches": 0,
+      "internet_service_mismatches": 0
+    }
+  }
+}

@@ -1,0 +1,4 @@
+risk_tier,n_test_customers,pct_of_test_population,mean_predicted_prob_pct,actual_churn_count,actual_churn_rate_pct,capture_of_all_test_churners_pct,mean_monthly_charges_usd,actual_churn_monthly_rev_at_risk_usd
+Tier 1: High Risk (p >= 0.50),275,19.52,64.32,185,67.27,49.47,78.07,14369.2
+Tier 2: Elevated Risk (0.33 <= p < 0.50),224,15.9,41.54,94,41.96,25.13,72.75,6622.25
+Tier 3: Low Risk (p < 0.33),910,64.58,11.68,95,10.44,25.4,57.73,6223.45

@@ -1,0 +1,2 @@
+n_customers,n_churned,n_retained,overall_churn_rate_pct,overall_churn_ci95_low_pct,overall_churn_ci95_high_pct,total_monthly_charges_usd,monthly_revenue_at_risk_usd,monthly_revenue_at_risk_pct,mean_tenure_months,median_tenure_months,mean_monthly_charges_usd,median_monthly_charges_usd,mean_total_charges_usd,median_total_charges_usd
+7043,1869,5174,26.54,25.52,27.58,456116.6,139130.85,30.5,32.37,29.0,64.76,70.35,2283.3,1397.47

@@ -1,0 +1,6 @@
+Dataset Name: IBM Sample Telco Customer Churn Dataset
+Direct CSV URL: https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv
+Official IBM Repository: https://github.com/IBM/telco-customer-churn-on-icp4d
+Retrieved UTC: 2026-11-10T11:37:58.867625+00:00
+SHA-256: 16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91
+Caveat: IBM identifies this CSV as sample data for a fictional telecommunications company (cross-sectional snapshot of 7,043 subscribers). Associations and model scores do not establish causality or verified live commercial revenue impacts.
