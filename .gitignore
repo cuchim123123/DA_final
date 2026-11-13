@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+*/.venv/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*/.pytest_cache/
+.ruff_cache/
+*/.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# OS & Editor temporary files
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.pptx

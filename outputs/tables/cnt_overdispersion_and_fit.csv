@@ -1,0 +1,2 @@
+lambda_hat,sample_variance,variance_to_mean_ratio_index_of_dispersion,dispersion_chi2_stat,dispersion_chi2_pvalue,cameron_trivedi_t_stat,cameron_trivedi_pvalue,log_likelihood,aic,ks_distance,negbin_r,negbin_p,negbin_loglik,negbin_aic,normal_loglik,normal_aic
+4504.3488,3752788.2083,833.1478,608197.88,0.0,24.7853,3.5412959240849605e-99,-338099.72,676201.44,0.4576,5.4129,0.0012,-6632.31,13268.61,-6569.69,13143.37

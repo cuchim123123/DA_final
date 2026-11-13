@@ -1,0 +1,5 @@
+model_name,role,n_predictors,train_mae,train_rmse,train_r2,train_adj_r2,test_mae,test_rmse,test_r2,test_bias_pred_minus_true
+Mean Baseline (DummyRegressor),"Predicts Train Mean = 4,153.60",0,1442.9507,1787.3553,0.0,0.0,2290.4127,2560.5558,-0.8657,-1744.2034
+Primary Multiple Linear Regression (OLS),Primary Specification (Drops Collinear atemp),11,539.4466,717.8453,0.8387,0.8356,891.6901,1164.8739,0.6139,-204.6966
+Supplemental Collinear OLS (With atemp),Demonstrates VIF Collinearity,12,538.7984,717.6476,0.8388,0.8354,894.366,1165.6082,0.6134,-209.0102
+Supplemental Ridge (alpha=0.01),L2 Regularized Comparison,11,539.4474,717.8453,0.8387,0.8356,891.7117,1164.8879,0.6139,-204.7504

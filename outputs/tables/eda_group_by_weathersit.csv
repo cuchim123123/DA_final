@@ -1,0 +1,5 @@
+group_variable,group_code,group_label,n,pct_of_days,mean,sd,se_mean,ci95_mean_low,ci95_mean_high,median,iqr,min,max
+weathersit,1,1: Clear / Partly Cloudy,463,63.34,4876.7862,1879.484,87.347,4705.1395,5048.4329,4844.0,2822.0,431.0,8714.0
+weathersit,2,2: Mist / Cloudy,247,33.79,4035.8623,1809.1099,115.1109,3809.1337,4262.591,4040.0,2583.0,605.0,8362.0
+weathersit,3,3: Light Snow / Light Rain,21,2.87,1803.2857,1240.2844,270.6523,1238.715,2367.8564,1817.0,1719.0,22.0,4639.0
+weathersit,4,4: Heavy Rain / Ice Pellets,0,0.0,,,,,,,,,
